@@ -1,0 +1,50 @@
+[
+  {
+    "HVL": [
+      {
+        "title": "Vestibylen",
+        "url": "https://www.hvl.no/Vestibylen"
+      }
+    ],
+    "ATLAS": [
+      {
+        "title": "some link",
+        "url": "linky link"
+      }
+    ],
+    "VBF CP": [
+      {
+        "title": "Glance entry",
+        "url": "https://atlas-glance.cern.ch/atlas/analysis/analyses/details?ref_code=ANA-HIGP-2024-09"
+      },
+      {
+        "title": "IntNote on CDS",
+        "url": "https://cds.cern.ch/record/2891741/"
+      },
+      {
+        "title": "IntNote GitLab repository",
+        "url": "https://gitlab.cern.ch/atlas-physics-office/HIGG/ANA-HIGG-2022-08/ANA-HIGG-2022-08-INT1"
+      },
+      {
+        "title": "Paper GitLab repository",
+        "url": "https://gitlab.cern.ch/atlas-physics-office/HIGP/ANA-HIGP-2024-09/ANA-HIGP-2024-09-PAPER"
+      },
+      {
+        "title": "Analysis overview and other documentation",
+        "url": "https://gitlab.cern.ch/groups/atlas-physics-office/HIGG/ANA-HIGG-2022-08/-/wikis/home"
+      },
+      {
+        "title": "Previous (partial Run 2) paper",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0370269320302306?via%3Dihub"
+      },
+      {
+        "title": "Previous (partial Run 2) IntNote",
+        "url": "https://cds.cern.ch/record/2298266/"
+      },
+      {
+        "title": "PubCom standardised text",
+        "url": "https://gitlab.cern.ch/atlas-physics-office/atlaslatex/-/tree/master/template"
+      }
+    ]
+  }
+]
