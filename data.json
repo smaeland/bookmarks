@@ -20,8 +20,22 @@
     ],
     "ATLAS": [
       {
-        "title": "some link",
-        "url": "linky link"
+        "title": "CERN GitLab",
+        "url": "https://gitlab.cern.ch/"
+      }
+    ],
+    "Resources": [
+      {
+        "title": "Reference manager",
+        "url": "https://smaeland.github.io/reference-manager/"
+      },
+      {
+        "title": "Notes",
+        "url": "https://memos-704692452404.europe-north1.run.app/"
+      },
+      {
+        "title": "Google Console",
+        "url": "https://console.cloud.google.com"
       }
     ],
     "VBF CP": [
@@ -44,6 +58,14 @@
       {
         "title": "Analysis overview and other documentation",
         "url": "https://gitlab.cern.ch/groups/atlas-physics-office/HIGG/ANA-HIGG-2022-08/-/wikis/home"
+      },
+      {
+        "title": "STXS paper",
+        "url": "https://arxiv.org/pdf/2407.16320"
+      },
+      {
+        "title": "STXS IntNote",
+        "url": "https://cds.cern.ch/record/2858708/files/ATL-COM-PHYS-2023-374.pdf"
       },
       {
         "title": "Previous (partial Run 2) paper",
