@@ -79,6 +79,12 @@
         "title": "PubCom standardised text",
         "url": "https://gitlab.cern.ch/atlas-physics-office/atlaslatex/-/tree/master/template"
       }
+    ],
+    "DAT255": [
+      {
+        "title": "AI assistant dashboard",
+        "url": "https://agreeable-glacier-0cf993403.5.azurestaticapps.net/"
+      }
     ]
   }
 ]
