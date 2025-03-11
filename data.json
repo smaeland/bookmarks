@@ -30,6 +30,10 @@
       {
         "title": "CERN GitLab",
         "url": "https://gitlab.cern.ch/"
+      },
+      {
+        "title": "AtlasBergen Twiki",
+        "url": "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasBergen"
       }
     ],
     "Resources": [
