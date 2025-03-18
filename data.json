@@ -23,7 +23,8 @@
       },
       {
         "title": "Prosjektplassen",
-        "url": "https://hvl-innmelding-eksternfinansiering.powerappsportals.com/"
+        "url": "https://hvl-innmelding-eksternfinansiering.powerappsportals.com/",
+        "icon": "icons/default.svg"
       }
     ],
     "ATLAS": [
@@ -33,7 +34,8 @@
       },
       {
         "title": "AtlasBergen Twiki",
-        "url": "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasBergen"
+        "url": "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasBergen",
+        "icon": "icons/twiki.ico"
       }
     ],
     "Resources": [
@@ -43,7 +45,8 @@
       },
       {
         "title": "Notes",
-        "url": "https://memos-704692452404.europe-north1.run.app/"
+        "url": "https://memos-704692452404.europe-north1.run.app/",
+        "icon": "https://www.usememos.com/logo-rounded.png"
       },
       {
         "title": "Google Console",
@@ -107,7 +110,8 @@
     "DAT255": [
       {
         "title": "AI assistant dashboard",
-        "url": "https://agreeable-glacier-0cf993403.5.azurestaticapps.net/"
+        "url": "https://agreeable-glacier-0cf993403.5.azurestaticapps.net/",
+        "icon": "icons/default.svg"
       }
     ]
   }
