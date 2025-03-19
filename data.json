@@ -58,7 +58,8 @@
       },
       { 
         "title": "Google Colab",
-        "url": "https://colab.research.google.com/"
+        "url": "https://colab.research.google.com/",
+        "icon": "https://ssl.gstatic.com/colaboratory-static/common/c89d63b7718272c208311f2caaf770da/img/favicon.ico"
       },
       {
         "title": "Material colors",
