@@ -56,6 +56,10 @@
         "title": "Overleaf",
         "url": "https://www.overleaf.com/project"
       },
+      { 
+        "title": "Google Colab",
+        "url": "https://colab.research.google.com/"
+      },
       {
         "title": "Material colors",
         "url": "https://materialui.co/colors"
