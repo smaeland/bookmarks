@@ -17,7 +17,7 @@
     rel="stylesheet">
     <style>
         .custom-card {
-            height: 80px;  /* Ensure height adjusts to content */
+            height: 80px;
         }
     </style>
 </head>
@@ -27,7 +27,7 @@
   <nav class="navbar">
     <div class="container">
       <span class="navbar-brand h1">🔖 Bookmarks</span>
-      <a class="btn btn-outline-secondary" href="https://github.com/smaeland/bookmarks">Edit <img src="https://raw.githubusercontent.com/smaeland/reference-manager/refs/heads/main/icons/github.svg" width="20" height="20"></a>
+      <a class="btn btn-outline-secondary" href="https://github.com/smaeland/bookmarks">Edit <img src="https://github.githubassets.com/favicons/favicon.png" width="20" height="20" class="d-inline-block align-text-top"></a>
     </div>
   </nav>
 
@@ -47,9 +47,9 @@
 
                 let groupHtmlString = `
     <div class="row mb-3">
-      <div class="col-2 card">
-        <div class="card-body">
-          <h5 class="card-title text-secondary">${groupName}</h5>
+      <div class="col-2 card justify-content-center">
+        <div class="card-body d-flex">
+          <h5 class="text-body-secondary m-auto">${groupName}</h5>
         </div>
       </div>
       <div class="col">

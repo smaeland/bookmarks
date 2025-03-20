@@ -31,10 +31,18 @@
         "url": "https://indico.cern.ch/category/7495/"
       }
     ],
-    "ATLAS": [
+    "CERN / ATLAS": [
       {
         "title": "CERN GitLab",
         "url": "https://gitlab.cern.ch/"
+      },
+      {
+        "title": "Webmail",
+        "url": "https://outlook.office.com/mail/"
+      },
+      {
+        "title": "Mattermost",
+        "url": "https://mattermost.web.cern.ch"
       },
       {
         "title": "AtlasBergen Twiki",
