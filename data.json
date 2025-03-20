@@ -25,6 +25,10 @@
         "title": "Prosjektplassen",
         "url": "https://hvl-innmelding-eksternfinansiering.powerappsportals.com/",
         "icon": "icons/default.svg"
+      },
+      {
+        "title": "HVL ATLAS meetings",
+        "url": "https://indico.cern.ch/category/7495/"
       }
     ],
     "ATLAS": [
