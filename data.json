@@ -122,6 +122,12 @@
         "url": "https://agreeable-glacier-0cf993403.5.azurestaticapps.net/",
         "icon": "icons/default.svg"
       }
+    ],
+    "NORSAR": [
+      {
+        "title": "NORSAR",
+        "url": "www.norsar.no"
+      }
     ]
   }
 ]
