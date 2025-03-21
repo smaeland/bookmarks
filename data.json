@@ -129,6 +129,10 @@
         "title": "AI assistant dashboard",
         "url": "https://agreeable-glacier-0cf993403.5.azurestaticapps.net/",
         "icon": "icons/default.svg"
+      },
+      {
+        "title": "Chollet <it>Deep Learning</it> notebooks".
+        "url": "https://github.com/fchollet/deep-learning-with-python-notebooks/tree/master"
       }
     ],
     "NORSAR": [
