@@ -131,8 +131,13 @@
         "icon": "icons/default.svg"
       },
       {
-        "title": "Chollet <it>Deep Learning</it> notebooks".
+        "title": "Chollet <it>Deep Learning</it> notebooks",
         "url": "https://github.com/fchollet/deep-learning-with-python-notebooks/tree/master"
+      },
+      {
+        "title": "Lecture notes",
+        "url": "https://hvl-ml.github.io/DAT255/",
+        "icon": "https://quarto.org/favicon.png"
       }
     ],
     "NORSAR": [
