@@ -42,7 +42,8 @@
       },
       {
         "title": "Mattermost",
-        "url": "https://mattermost.web.cern.ch"
+        "url": "https://mattermost.web.cern.ch",
+        "icon": "https://mattermost.com/wp-content/themes/mattermost-2021/frontend/dist/img/favicon/v2/favicon-32x32.png"
       },
       {
         "title": "AtlasBergen Twiki",
@@ -83,6 +84,10 @@
       }
     ],
     "VBF CP": [
+      {
+        "title": "Analysis meetings",
+        "url": "https://indico.cern.ch/category/18904/"
+      },
       {
         "title": "Glance entry",
         "url": "https://atlas-glance.cern.ch/atlas/analysis/analyses/details?ref_code=ANA-HIGP-2024-09"
@@ -126,9 +131,13 @@
       {
         "title": "PubCom standardised text",
         "url": "https://gitlab.cern.ch/atlas-physics-office/atlaslatex/-/tree/master/template"
+      },
+      {
+        "title": "Physics Office Docs",
+        "url": "https://atlas-po.docs.cern.ch/"
       }
     ],
-    "DAT255": [
+    "DAT255 / 158": [
       {
         "title": "AI assistant dashboard",
         "url": "https://agreeable-glacier-0cf993403.5.azurestaticapps.net/",
@@ -139,8 +148,13 @@
         "url": "https://github.com/fchollet/deep-learning-with-python-notebooks/tree/master"
       },
       {
-        "title": "Lecture notes",
+        "title": "DAT255 lecture notes",
         "url": "https://hvl-ml.github.io/DAT255/",
+        "icon": "https://quarto.org/favicon.png"
+      },
+      {
+         "title": "DAT158 lecture notes",
+         "url": "https://hvl-ml.github.io/DAT158/",
         "icon": "https://quarto.org/favicon.png"
       }
     ],
