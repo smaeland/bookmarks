@@ -163,6 +163,12 @@
         "title": "NORSAR",
         "url": "www.norsar.no"
       }
+    ],
+    "CERN Visits" : [
+      {
+        "title": "Indico June",
+        "url": "https://indico.cern.ch/event/1535360/"
+      }
     ]
   }
 ]
