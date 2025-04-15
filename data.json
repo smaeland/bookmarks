@@ -181,6 +181,12 @@
         "title": "Indico June",
         "url": "https://indico.cern.ch/event/1535360/"
       }
+    ],
+    "Useful tools": [
+      {
+        "title": "ExplainShell",
+        "url": "https://explainshell.com/"
+      }
     ]
   }
 ]
