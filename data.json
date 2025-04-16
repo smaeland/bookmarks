@@ -176,10 +176,24 @@
         "url": "www.norsar.no"
       }
     ],
-    "CERN Visits" : [
+    "CERN Visits": [
       {
         "title": "Indico June",
         "url": "https://indico.cern.ch/event/1535360/"
+      }
+    ],
+    "Applications": [
+      {
+        "title": "NordForsk Overleaf",
+        "url": "https://www.overleaf.com/project/67f61c092ec907c4aa9f50aa"
+      },
+      {
+        "title": "NordForsk budget",
+        "url": "https://docs.google.com/spreadsheets/d/1VGKCxpdnPpzYnPJ0hNDrMDORIkYrrLp83HorPgbxoXY/edit?usp=sharing"
+      },
+      {
+        "title": "NordForsk planning doc",
+        "url": "https://docs.google.com/document/d/1W_E0LfFyT7dBHtQos7fyy6EIKlR55acF7S8aMNqIaFI/edit?tab=t.0"
       }
     ],
     "Useful tools": [
