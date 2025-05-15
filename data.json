@@ -57,6 +57,10 @@
         "title": "AtlasBergen Twiki",
         "url": "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasBergen",
         "icon": "icons/twiki.ico"
+      },
+      {
+        "title": "e-groups",
+        "url": "https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do"
       }
     ],
     "Resources": [
