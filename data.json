@@ -186,8 +186,12 @@
     ],
     "CERN Visits": [
       {
-        "title": "Indico June",
+        "title": "VIP visit Indico",
         "url": "https://indico.cern.ch/event/1535360/"
+      },
+      {
+        "title": "IdeaSquare Indico",
+        "url": "https://indico.cern.ch/event/1542768/"
       }
     ],
     "Applications": [
