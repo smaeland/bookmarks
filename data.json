@@ -63,6 +63,24 @@
         "url": "https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do"
       }
     ],
+    "MDN TES": [
+      {
+        "title": "Google doc",
+        "url": "https://docs.google.com/document/d/1WQq8445QbYj2Rc6UA0rmFXxX4EpOfx5bR8pv3IV_HIc/edit?tab=t.0#heading=h.f6zqfjcm38lu"
+      },
+      {
+        "title": "Miles report",
+        "url": "https://archive.int.washington.edu/REU/2022/Cochran-Branson_paper.pdf"
+      },
+      {
+        "title": "TauCP QT internal notes",
+        "url": "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/TauQualificationTasks"
+      },
+      {
+        "title": "Git repository",
+        "url": "https://gitlab.cern.ch/stmaelan/mixture-density-tes"
+      }
+    ],
     "Resources": [
       {
         "title": "Reference manager",
