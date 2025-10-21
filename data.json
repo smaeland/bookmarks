@@ -248,12 +248,30 @@
       {
         "title": "NordForsk planning doc",
         "url": "https://docs.google.com/document/d/1W_E0LfFyT7dBHtQos7fyy6EIKlR55acF7S8aMNqIaFI/edit?tab=t.0"
+      },
+      {
+        "title": "Cooperative Decision Making for Selection of Application Strategies",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-18461-1_58"
       }
     ],
     "Useful tools": [
       {
         "title": "ExplainShell",
         "url": "https://explainshell.com/"
+      },
+      {
+        "title": "Perfect freehand drawing",
+        "url": "https://www.perfectfreehand.com/"
+      }
+    ],
+    "Maybe interesting": [
+      {
+        "title": "Graphical linear algebra",
+        "url": "https://graphicallinearalgebra.net/"
+      },
+      {
+        "title": "Asterisk Magazine",
+        "url": "https://asteriskmag.com"
       }
     ]
   }
