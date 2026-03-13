@@ -121,6 +121,11 @@
         "url": "https://gpt.uio.no/"
       }
     ],
+    "Courses": [
+      {
+        "title": "CERN501",
+        "url": "https://www.hvl.no/en/studies-at-hvl/study-programmes/courses/cer501"
+    ],
     "VBF CP": [
       {
         "title": "Analysis meetings",
