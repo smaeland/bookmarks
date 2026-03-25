@@ -87,6 +87,10 @@
       {
         "title": "Git repository",
         "url": "https://gitlab.cern.ch/stmaelan/mixture-density-tes"
+      },
+      {
+        "title": "Note on CDS",
+        "url": "https://cds.cern.ch/record/2954582"
       }
     ],
     "Resources": [
