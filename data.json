@@ -131,6 +131,16 @@
         "url": "https://www.hvl.no/en/studies-at-hvl/study-programmes/courses/cer501"
       }
     ],
+    "Anomaly detection": [
+      {
+        "title": "Glance entry",
+        "url": "https://atlas-glance.cern.ch/atlas/analysis/analyses/details.php?ref_code=ANA-EXOT-2026-15"
+      },
+      {
+        "title": "SUSY tau+X paper",
+        "url": "https://cds.cern.ch/record/2929440/"
+      }
+    ],
     "VBF CP": [
       {
         "title": "Analysis meetings",
