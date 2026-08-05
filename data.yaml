@@ -1,0 +1,21 @@
+Important:
+  - title: Outlook
+    url: https://outlook.office.com
+
+  - title: GitHub
+    url: https://github.com
+
+News:
+  - title: NRK
+    url: https://www.nrk.no
+
+  - title: BBC
+    url: https://www.bbc.com
+
+Development:
+  - title: Stack Overflow
+    url: https://stackoverflow.com
+
+  - title: MDN
+    url: https://developer.mozilla.org
+

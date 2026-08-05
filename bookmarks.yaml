@@ -1,0 +1,30 @@
+Important:
+  - title: Email
+    url: https://mail.example.com
+    desc: Work inbox
+  - title: Docs
+    url: https://docs.example.com
+    desc: Team documentation
+    icon: icons/default.svg
+  - title: Calendar
+    url: https://calendar.example.com
+  - title: Something else
+    url: https://lol.example.com
+
+News:
+  - title: BBC News
+    url: https://www.bbc.com
+  - title: Hacker News
+    url: https://news.ycombinator.com
+    desc: Tech news
+
+Dev:
+  - title: MDN Web Docs
+    url: https://developer.mozilla.org
+    desc: Web platform docs
+  - title: GitHub
+    url: https://github.com
+
+Reference:
+  - title: Wikipedia
+    url: https://www.wikipedia.org
