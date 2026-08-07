@@ -11,20 +11,176 @@ Important:
   - title: Something else
     url: https://lol.example.com
 
-News:
-  - title: BBC News
-    url: https://www.bbc.com
-  - title: Hacker News
-    url: https://news.ycombinator.com
-    desc: Tech news
+  - title: Canvas,
+    url: https://hvl.instructure.com
 
-Dev:
-  - title: MDN Web Docs
-    url: https://developer.mozilla.org
-    desc: Web platform docs
-  - title: GitHub
-    url: https://github.com
 
-Reference:
-  - title: Wikipedia
-    url: https://www.wikipedia.org
+HVL:
+  - title: Vestibylen
+    url: https://www.hvl.no/Vestibylen
+  - title: Canvas
+    url: https://hvl.instructure.com/
+  - title: FSweb
+    url: https://fsweb.no/fagpersonweb/
+  - title: TimeEdit
+    url: https://cloud.timeedit.net/hvl/web/ansattberg/
+  - title: Berg-Hansen
+    url: https://www.berg-hansen.no/
+  - title: Prosjektplassen
+    url: https://hvl-innmelding-eksternfinansiering.powerappsportals.com/
+    icon: icons/default.svg
+  - title: HVL ATLAS meetings
+    url: https://indico.cern.ch/category/7495/
+  - title: Printing
+    url: https://myprint.hvl.no/RicohmyPrint/Login.aspx
+  - title: Mentimeter
+    url: https://www.mentimeter.com/app/home
+  - title: Pureservice selvbetjening
+    url: https://hvl.pureservice.com/
+  - title: Wiseflow
+    url: https://europe.wiseflow.net/assessor/
+
+CERN / ATLAS:
+  - title: CERN GitLab
+    url: https://gitlab.cern.ch/
+  - title: Webmail
+    url: https://outlook.office.com/mail/
+  - title: Mattermost
+    url: https://mattermost.web.cern.ch
+    icon: https://mattermost.com/wp-content/themes/mattermost-2021/frontend/dist/img/favicon/v2/favicon-32x32.png
+  - title: AtlasBergen Twiki
+    url: https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasBergen
+    icon: icons/twiki.ico
+  - title: e-groups
+    url: https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do
+
+MDN TES:
+  - title: Google doc
+    url: https://docs.google.com/document/d/1WQq8445QbYj2Rc6UA0rmFXxX4EpOfx5bR8pv3IV_HIc/edit?tab=t.0#heading=h.f6zqfjcm38lu
+  - title: Miles report
+    url: https://archive.int.washington.edu/REU/2022/Cochran-Branson_paper.pdf
+  - title: TauCP QT internal notes
+    url: https://twiki.cern.ch/twiki/bin/view/AtlasProtected/TauQualificationTasks
+  - title: Git repository
+    url: https://gitlab.cern.ch/stmaelan/mixture-density-tes
+  - title: Note on CDS
+    url: https://cds.cern.ch/record/2954582
+
+Resources:
+  - title: Reference manager
+    url: https://smaeland.github.io/reference-manager/
+  - title: Notes
+    url: https://memos-704692452404.europe-north1.run.app/
+    icon: https://www.usememos.com/logo-rounded.png
+  - title: Google Console
+    url: https://console.cloud.google.com
+  - title: Overleaf
+    url: https://www.overleaf.com/project
+  - title: Google Colab
+    url: https://colab.research.google.com/
+    icon: https://ssl.gstatic.com/colaboratory-static/common/c89d63b7718272c208311f2caaf770da/img/favicon.ico
+  - title: Material colors
+    url: https://materialui.co/colors
+  - title: UiO GPT
+    url: https://gpt.uio.no/
+
+Courses:
+  - title: CERN501
+    url: https://www.hvl.no/en/studies-at-hvl/study-programmes/courses/cer501
+
+Anomaly detection:
+  - title: Glance entry
+    url: https://atlas-glance.cern.ch/atlas/analysis/analyses/details.php?ref_code=ANA-EXOT-2026-15
+  - title: SUSY tau+X paper
+    url: https://cds.cern.ch/record/2929440/
+
+VBF CP:
+  - title: Analysis meetings
+    url: https://indico.cern.ch/category/18904/
+  - title: Glance entry
+    url: https://atlas-glance.cern.ch/atlas/analysis/analyses/details?ref_code=ANA-HIGP-2024-09
+  - title: IntNote on CDS
+    url: https://cds.cern.ch/record/2891741/
+  - title: Paper draft on CDS
+    url: https://cds.cern.ch/record/2926187
+  - title: IntNote GitLab repository
+    url: https://gitlab.cern.ch/atlas-physics-office/HIGG/ANA-HIGG-2022-08/ANA-HIGG-2022-08-INT1
+  - title: Paper GitLab repository
+    url: https://gitlab.cern.ch/atlas-physics-office/HIGP/ANA-HIGP-2024-09/ANA-HIGP-2024-09-PAPER
+  - title: Analysis overview and other documentation
+    url: https://gitlab.cern.ch/groups/atlas-physics-office/HIGG/ANA-HIGG-2022-08/-/wikis/home
+  - title: STXS paper
+    url: https://arxiv.org/pdf/2407.16320
+  - title: STXS IntNote
+    url: https://cds.cern.ch/record/2858708/files/ATL-COM-PHYS-2023-374.pdf
+  - title: Previous (partial Run 2) paper
+    url: https://www.sciencedirect.com/science/article/pii/S0370269320302306?via%3Dihub
+  - title: Previous (partial Run 2) IntNote
+    url: https://cds.cern.ch/record/2298266/
+  - title: PubCom standardised text
+    url: https://gitlab.cern.ch/atlas-physics-office/atlaslatex/-/tree/master/template
+  - title: Physics Office Docs
+    url: https://atlas-po.docs.cern.ch/
+  - title: CDS publication draft (1st circulation)
+    url: https://cds.cern.ch/record/2929611
+  - title: PubCom draft circulation checklist
+    url: https://twiki.cern.ch/twiki/bin/view/AtlasProtected/PubComPaperCheckList#Draft_1_Circulation_in_ATLAS
+  - title: Plots/results webpage
+    url: https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/HIGP-2024-09/
+  - title: Preprint CDS
+    url: https://cds.cern.ch/record/2936355
+  - title: arXiv preprint
+    url: https://arxiv.org/abs/2506.19395
+  - title: JHEP publication
+    url: https://link.springer.com/article/10.1007/JHEP10(2025)092
+
+DAT255 / 158:
+  - title: AI assistant dashboard
+    url: https://agreeable-glacier-0cf993403.5.azurestaticapps.net/
+    icon: icons/default.svg
+  - title: Chollet <it>Deep Learning</it> notebooks
+    url: https://github.com/fchollet/deep-learning-with-python-notebooks/tree/master
+  - title: DAT255 lecture notes
+    url: https://hvl-ml.github.io/DAT255/
+    icon: https://quarto.org/favicon.png
+  - title: DAT158 lecture notes
+    url: https://hvl-ml.github.io/DAT158/
+    icon: https://quarto.org/favicon.png
+
+NORSAR:
+  - title: NORSAR
+    url: www.norsar.no
+
+CERN Visits:
+  - title: VIP visit Indico
+    url: https://indico.cern.ch/event/1535360/
+  - title: IdeaSquare Indico
+    url: https://indico.cern.ch/event/1542768/
+  - title: Visit point calendar
+    url: https://apex-sso.cern.ch/pls/htmldb_cerndb1/f?p=999:2:115967223817606
+  - title: Visit points stable
+    url: https://guides.web.cern.ch/#visitpointstable
+  - title: Guides search
+    url: https://apex-sso.cern.ch/pls/htmldb_cerndb1/f?p=999:4
+
+Applications:
+  - title: NordForsk Overleaf
+    url: https://www.overleaf.com/project/67f61c092ec907c4aa9f50aa
+  - title: NordForsk budget
+    url: https://docs.google.com/spreadsheets/d/1VGKCxpdnPpzYnPJ0hNDrMDORIkYrrLp83HorPgbxoXY/edit?usp=sharing
+  - title: NordForsk planning doc
+    url: https://docs.google.com/document/d/1W_E0LfFyT7dBHtQos7fyy6EIKlR55acF7S8aMNqIaFI/edit?tab=t.0
+  - title: Cooperative Decision Making for Selection of Application Strategies
+    url: https://link.springer.com/chapter/10.1007/978-3-031-18461-1_58
+
+Useful tools:
+  - title: ExplainShell
+    url: https://explainshell.com/
+  - title: Perfect freehand drawing
+    url: https://www.perfectfreehand.com/
+
+Maybe interesting:
+  - title: Graphical linear algebra
+    url: https://graphicallinearalgebra.net/
+  - title: Asterisk Magazine
+    url: https://asteriskmag.com

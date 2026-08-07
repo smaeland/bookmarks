@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const yamlUrl = 'bookmarks.yaml'; // keep this file next to index.html
+  const yamlUrl = 'bookmarks.yaml';
   const importantKey = 'Important';
   const collapsedKey = 'collapsedCategories:v1';
 
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // <h6 class="card-title text-truncate"> ... </h6>
       const h6 = document.createElement('h6');
-      h6.className = 'card-title text-truncate';
+      h6.className = 'text-truncate';
 
       // Insert favicon and title
       const favicon = item.icon || `https://www.google.com/s2/favicons?domain=${item.url}&sz=32`;
@@ -116,20 +116,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderCategory(name, items) {
 
+    const sectionId = ('section' + name.replace(/[^a-zA-Z0-9]/g, ""));
+    
     const section = document.createElement('section');
     section.className = 'container p-2';
     section.dataset.category = name;
 
-    const header = document.createElement('div');
-    header.className = 'category-header';
+    const header = document.createElement('a');
+    header.className = 'btn category-header my-3';
+    header.setAttribute('href', ('#' + sectionId));
+    header.setAttribute('data-bs-toggle', 'collapse')
+    header.setAttribute('role', 'button')
 
-    const h2 = document.createElement('h4');
-    h2.textContent = name;
-    header.appendChild(h2);
+    const headerText = document.createElement('h5');
+    headerText.textContent = name;
+    header.appendChild(headerText);
 
     const grid = document.createElement('grid')
-    grid.className = "row row-cols-1 row-cols-md-3 g-2"
-
+    grid.className = "row row-cols-1 row-cols-md-2 g-2 collapse";
+    grid.id = sectionId;
 
     items.forEach(item => {
 
@@ -143,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
       //card.className = 'card custom-card';
 
       const cardLink = document.createElement('a');
-      cardLink.className = 'card custom-card text-reset text-decoration-none h-100';
+      cardLink.className = 'text-reset text-decoration-none h-100';
       cardLink.href = item.url || '#';
       // if you want links to open in a new tab:
       // cardLink.target = '_blank';
@@ -159,8 +164,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const favicon = item.icon || `https://www.google.com/s2/favicons?domain=${item.url}&sz=32`;
       const img = document.createElement('img');
       img.src = favicon;
-      img.width = 20;
-      img.height = 20;
+      img.width = 15;
+      img.height = 15;
       img.className = 'd-inline-block align-text-top';
       // Append img and title text with a non-breaking space
       cardBody.appendChild(img);
@@ -170,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const span = document.createElement('span');
       span.className = 'card-text text-body-secondary text-truncate';
       span.style.fontSize = '0.9em';
-      span.textContent = ('| ' + item.url) || '';
+      span.textContent = (item.url) || '';
       cardBody.appendChild(span)
 
       //cardBody.appendChild(a);
