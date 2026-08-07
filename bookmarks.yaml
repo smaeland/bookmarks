@@ -1,3 +1,11 @@
+# Format
+#
+# <Category name>:
+#  - title: <some title> (required)
+#    url: <some link> (required)
+#    icon: <link or file in this repo> (optional)
+
+
 Important:
   - title: Email
     url: https://mail.example.com
@@ -11,7 +19,7 @@ Important:
   - title: Something else
     url: https://lol.example.com
 
-  - title: Canvas,
+  - title: Canvas
     url: https://hvl.instructure.com
 
 

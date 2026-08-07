@@ -1,0 +1,10 @@
+.accordion {
+    --bs-accordion-btn-color: var(--bs-dark);
+    --bs-accordion-btn-bg: #CFD8DC;
+    --bs-accordion-active-color: var(--bs-black);
+    --bs-accordion-active-bg: #ECEFF1;
+}
+
+.card {
+    background-color: #E0F2F1;
+}
