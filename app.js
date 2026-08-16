@@ -24,19 +24,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
   function render(data) {
+
     if (!data || typeof data !== 'object') return;
 
     // Render "Important" grid
-    const important = Array.isArray(data[importantKey]) ? data[importantKey] : [];
+    const important = data[importantKey];
     renderImportant(important);
 
     // Render other categories
     const categories = Object.keys(data)
-      .filter(k => k !== importantKey)
+      .filter(k => k !== importantKey);
       // .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
 
     categories.forEach(cat => {
-      const items = Array.isArray(data[cat]) ? data[cat] : [];
+      const items = data[cat];
       els.categoriesRoot.appendChild(renderCategory(cat, items));
     });
   }
@@ -46,14 +47,18 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderImportant(items) {
     const section = document.getElementById('important-section');
     els.importantGrid.innerHTML = '';
-    if (!items.length) {
+
+    // remove? 
+    if (!items.links.length) {
       section.classList.add('hidden');
       return;
     } else {
       section.classList.remove('hidden');
     }
 
-    items.forEach(item => {
+    links = items.links || [];
+
+    links.forEach(item => {
 
       const col = document.createElement('div');
       col.className = 'col';
@@ -98,11 +103,17 @@ document.addEventListener('DOMContentLoaded', () => {
   // --------------------------------------------------------------------------
   // Render categories as entries in the accordion
   function renderCategory(name, items) {
-
+    
+    collapsed = items.collapsed || false;
+    links = items.links || [];
+    
     const sectionId = ('section' + name.replace(/[^a-zA-Z0-9]/g, ""));
 
+    const accordion = document.createElement('div')
+    accordion.className = 'accordion'
+    
     const section = document.createElement('div')
-    section.className = 'accordion-item'
+    section.className = 'accordion-item m-2'
     
     const header = document.createElement('h4');
     header.className = 'accordion-header';
@@ -117,7 +128,10 @@ document.addEventListener('DOMContentLoaded', () => {
     section.appendChild(header);
 
     const sectionContent = document.createElement('div');
-    sectionContent.className = 'accordion-collapse collapse show';
+    sectionContent.className = 'accordion-collapse collapse';
+    if (!collapsed) {
+      sectionContent.className += ' show';
+    } 
     sectionContent.id = sectionId;
 
     const sectionBody = document.createElement('div');
@@ -126,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const grid = document.createElement('grid');
     grid.className = "row row-cols-1 row-cols-md-2 g-2";
 
-    items.forEach(item => {
+    links.forEach(item => {
 
       const col = document.createElement('div');
       col.className = 'col';
@@ -166,8 +180,9 @@ document.addEventListener('DOMContentLoaded', () => {
     sectionBody.appendChild(grid);
     sectionContent.appendChild(sectionBody);
     section.appendChild(sectionContent);
+    accordion.appendChild(section);
   
-    return section;
+    return accordion;
 
   }
 });
