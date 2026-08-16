@@ -105,6 +105,8 @@ Anomaly detection:
       url: https://atlas-glance.cern.ch/atlas/analysis/analyses/details.php?ref_code=ANA-EXOT-2026-15
     - title: SUSY tau+X paper
       url: https://cds.cern.ch/record/2929440/
+    - title: Exotics Working Group documentation
+      url: https://atlas-exot.docs.cern.ch/
 
 VBF CP:
   links:
