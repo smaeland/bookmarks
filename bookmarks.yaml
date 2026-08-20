@@ -163,6 +163,11 @@ DAT255 / 158:
       url: https://hvl-ml.github.io/DAT158/
       icon: https://quarto.org/favicon.png
 
+NorCC:
+  links:
+    - title: Nettskjema activity reporting
+      url: https://nettskjema.no/a/norcc#/page/1
+
 NORSAR:
   links:
     - title: NORSAR
