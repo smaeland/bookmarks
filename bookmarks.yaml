@@ -43,6 +43,8 @@ HVL:
       url: https://hvl.pureservice.com/
     - title: Wiseflow
       url: https://europe.wiseflow.net/assessor/
+    - title: Sensorportalen
+      url: https://hvl.outsystemsenterprise.com/Sensorportalen/Exams
 
 CERN / ATLAS:
   collapsed: false
