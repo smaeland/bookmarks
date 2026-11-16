@@ -33,8 +33,6 @@ HVL:
     - title: Prosjektplassen
       url: https://hvl-innmelding-eksternfinansiering.powerappsportals.com/
       icon: icons/default.svg
-    - title: HVL ATLAS meetings
-      url: https://indico.cern.ch/category/7495/
     - title: Printing
       url: https://myprint.hvl.no/RicohmyPrint/Login.aspx
     - title: Mentimeter
@@ -45,6 +43,8 @@ HVL:
       url: https://europe.wiseflow.net/assessor/
     - title: Sensorportalen
       url: https://hvl.outsystemsenterprise.com/Sensorportalen/Exams
+    - title: DFØ portal
+      url: https://login.dfo.no/
 
 CERN / ATLAS:
   collapsed: false
@@ -61,6 +61,8 @@ CERN / ATLAS:
       icon: icons/twiki.ico
     - title: e-groups
       url: https://e-groups.cern.ch/e-groups/EgroupsSearchForm.do
+    - title: ATLAS Search and documentation
+      url: https://atlas-search.docs.cern.ch/
 
 MDN TES:
   collapsed: false
